@@ -1,4 +1,4 @@
-# [Math.mx](https://math.mx)
+# [Math.mx](http://math.mx)
 
 Math.mx (mathematics) is a zoomable d3 treegraph of hierarchical mathematical topics (a navigatable taxonomy of math). It's goal is to give one a holistic mechanism for exploring all of math, to learn what they don't know, to discover and see how fields are related, and to contribute/associate resources to help others better undestand each topic.
 
