@@ -8,7 +8,7 @@ Math.mx (mathematics) is a zoomable d3 treegraph of hierarchical mathematical to
 ## Goals
 
 - **Wiki Data Support:** Resolve every math topic to a wikidata ID
-- **Entity Resolve w/ Wikipedia:** Extend the math.mx DAG (which is from the [AMS MSC2010 taxonomy](http://www.ams.org/msc/pdfs/classifications2010.pdf) -- [query it here](http://www.ams.org/msc/msc2010.html?t=92B20&btn=Since+1999)) with https://en.wikipedia.org/wiki/Category:Fields_of_mathematics 
+- **Entity Resolve w/ Wikipedia:** Extend the math.mx DAG (which is from the [AMS MSC2010 taxonomy](http://www.ams.org/msc/pdfs/classifications2010.pdf) -- [query it here](http://www.ams.org/msc/msc2010.html?t=92B20&btn=Since+1999)) with https://en.wikipedia.org/wiki/Category:Fields_of_mathematics (iterate over [wikipedia math categories](http://www.mediawiki.org/wiki/API:Categorymembers))
 - **Allow Users to Edit:** CRUD (create, read, update, delete) (i.e. back with a database, like s3)
   - Allow each box/cell to be annotated with users' resources (academic papers, videos)
   - Allow users to add children or neighbors to a specific cell
